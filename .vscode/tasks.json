@@ -1,0 +1,20 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "build main",
+            "command": "make"
+        },
+        {
+            "type": "shell",
+            "label": "build test",
+            "command": "make build_test"
+        },
+        {
+            "type": "shell",
+            "label": "clean",
+            "command": "make clean"
+        }
+    ],
+    "version": "2.0.0"
+}

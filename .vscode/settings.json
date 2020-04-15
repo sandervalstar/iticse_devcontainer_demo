@@ -1,0 +1,4 @@
+{
+    "editor.formatOnSave": true,
+    "gitlens.blame.compact": false
+}
