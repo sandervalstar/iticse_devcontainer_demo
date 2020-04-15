@@ -9,7 +9,7 @@ The source code can be built using make. Executables will be placed under the bu
 - ⚠️NOTE: Windows users, when installing Docker it may ask you if you want to configure it for running Windows containers or Linux containers. Choose Linux containers.
 - ⚠️NOTE: Windows users, if you are running Windows Home edition, first read the note below the next item!
 - Download and install Docker Desktop: https://www.docker.com/products/docker-desktop
-  - ⚠️NOTE: Docker Desktop for Windows requires the Hyper-V Windows feature which is not available on Home-edition. If you are running Windows Home-edition, install Docker Toolbox instead: https://docs.docker.com/toolbox/toolbox_install_windows/
+  - ⚠️NOTE: Docker Desktop for Windows requires the Hyper-V Windows feature which is not available on Home-edition. If you are running Windows Home-edition we recommend you upgrade for free to Windows Education-edition. If that is not an option for you, you can try to install Docker Toolbox instead: https://docs.docker.com/toolbox/toolbox_install_windows/
 - Make sure docker is running
 - Download and install VSCode
 - Open VSCode, click the "Extensions" icon on the left and install the "Remote Development" extension by Microsoft
