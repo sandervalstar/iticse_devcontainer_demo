@@ -2,15 +2,9 @@
     "name": "C++",
     "extensions": [
         "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools",
+        "twxs.cmake",
         "eamodio.gitlens"
     ],
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash"
-    },
-    "dockerComposeFile": [
-        "docker-compose.yml"
-    ],
-    "service": "web",
-    "workspaceFolder": "/Code/assignment",
-    "shutdownAction": "stopCompose"
+    "image": "sandervalstar/devcontainer:centos_cpp_v3"
 }

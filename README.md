@@ -6,19 +6,19 @@ The source code can be built using make. Executables will be placed under the bu
 
 
 ## Getting Started with the Devcontainer
-- ⚠️NOTE: Windows users, when installing Docker it may ask you if you want to configure it for running Windows containers or Linux containers. Choose Linux containers.
-- ⚠️NOTE: Windows users, if you are running Windows Home edition, first read the note below the next item!
+- ⚠️ NOTE: Windows users, when installing Docker it may ask you if you want to configure it for running Windows containers or Linux containers. **Choose Linux containers.**
+- ⚠️ NOTE: Windows users, if you are running Windows Home-edition you will need to upgrade your Windows version before continuing. (Docker Desktop for Windows requires the Hyper-V Windows feature which is not available on Home-edition.)
+  - If you are a student or educator, you can upgrade for free to [Windows Education-edition](https://onthehub.com/windows-10-education/). 
 - Download and install Docker Desktop: https://www.docker.com/products/docker-desktop
-  - ⚠️NOTE: Docker Desktop for Windows requires the Hyper-V Windows feature which is not available on Home-edition. If you are running Windows Home-edition we recommend you upgrade for free to Windows Education-edition. If that is not an option for you, you can try to install Docker Toolbox instead: https://docs.docker.com/toolbox/toolbox_install_windows/
 - Make sure docker is running
 - Download and install VSCode
 - Open VSCode, click the "Extensions" icon on the left and install the "Remote Development" extension by Microsoft
-![Remote Development Extension](images/install-remote-development-extension.png "Remote Development Extension") 
+![Remote Development Extension](images/install-remote-development-extension.png "Remote Development Extension")
 - Open this project in VSCode
 - There will be a popup asking if you want to open it in a devcontainer:
 ![Devcontainer Popup](images/reopen-in-container-popup.png "Devcontainer Popup")
 - Click "Reopen in Container"
-- If you don't see the popup, you can also open the devcontainer with a command. 
+- If you don't see the popup, you can also open the devcontainer with a command.
   - open the Command Palette in VSCode: `ctrl+shift+p` (`cmd+shift+p on mac`)
   - type "reopen" and hit enter
   ![Devcontainer Command](images/reopen-in-container-command.png "Devcontainer Command")
@@ -26,8 +26,8 @@ The source code can be built using make. Executables will be placed under the bu
 - Once the devcontainer is up and running you'll see the files in your project reappear on the left
 - Open bash in the VSCode Terminal tab:
 ![Bash](images/bash.png "Bash")
-  - ℹ️If you don't see a TERMINAL tab in the bottom panel of your screen, hit ``ctrl+` ``
-  - ℹ️If you don't see a "Bash" option in the dropdown, click the plus icon to the right of the dropdown
+  - ℹ️ If you don't see a TERMINAL tab in the bottom panel of your screen, hit ``ctrl+` ``
+  - ℹ️ If you don't see a "Bash" option in the dropdown, click the plus icon to the right of the dropdown
 - Cool, now you are fully set up to begin developing on the project!
 
 
